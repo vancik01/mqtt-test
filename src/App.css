@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+p{
+  margin: 0;
+}
+
+.message{
+  background-color: rgb(237, 237, 237);
+  padding: 10px;
+  border-radius: 10px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
