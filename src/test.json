@@ -1,0 +1,135 @@
+{
+    "DeviceID": -1,
+    "DeviceName": "DefaultName",
+    "DeviceType": "MINIR2",
+    "MonitoredVariables": [
+        {
+            "Name": "Switch1",
+            "DisplayType": "OnOff",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "Switch2",
+            "DisplayType": "OnOff",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "Period1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "W"
+        },
+        {
+            "Name": "PowerUsedToday",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "W"
+        },
+        {
+            "Name": "Factor1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "Factor2",
+            "DisplayType": "Numerical",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "Period1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "PowerUsedToday",
+            "DisplayType": "Numerical",
+            "DisplayUnit": ""
+        },
+        {
+            "Name": "Voltage",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "V"
+        },
+        {
+            "Name": "Current1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "A"
+        },
+        {
+            "Name": "Current2",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "A"
+        },
+        {
+            "Name": "ApparentPower1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "VA"
+        },
+        {
+            "Name": "ApparentPower2",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "VA"
+        },
+        {
+            "Name": "PowerUsedToday",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "kWh"
+        },
+        {
+            "Name": "PowerUsedTotal",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "kWh"
+        },
+        {
+            "Name": "ReactivePower1",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "VAr"
+        },
+        {
+            "Name": "ReactivePower2",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "VAr"
+        }
+    ],
+    "ControlledVariables": [
+        {
+            "Name": "Power1",
+            "State": 0,
+            "DisplayType": "Toggle"
+        },
+        {
+            "Name": "Power2",
+            "State": 0,
+            "DisplayType": "Toggle"
+        }
+    ]
+}
+
+{
+    "DeviceID": 123,
+    "DeviceName": "Senzor1",
+    "DeviceType": "DHT",
+    "MonitoredVariables":[
+        {
+            "Name": "Humidity",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "%"
+        },
+        {
+            "Name": "Temperature",
+            "DisplayType": "Numerical",
+            "DisplayUnit": "C"
+        }
+    ]
+    "ControlledVariables": {}
+}
+{"Time":"2023-04-05T19:39:23",
+    "Uptime":"2T01:17:45",
+    "UptimeSec":177465,
+    "Heap":150,
+    "SleepMode":"Dynamic",
+    "Sleep":50,
+    "LoadAvg":19,
+    "MqttCount":3,
+    "Berry":{"HeapUsed":3,"Objects":45},
+    "POWER":"ON",
+    "Wifi":{"AP":1,"SSId":"Area51","BSSId":"40:16:7E:59:6C:70","Channel":10,"Mode":"11n","RSSI":76,"Signal":-62,"LinkCount":1,"Downtime":"0T00:00:04"}
+}
